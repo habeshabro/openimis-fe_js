@@ -12,13 +12,13 @@ const theme = createTheme({
     },
   },
   palette: {
-    primary: { main: "#006273" },
-    secondary: { main: "#fff" },
+    primary: { main: "#000" },
+    secondary: { main: "#000"},
     error: { main: "#801a00" },
     text: {
-      primary: "#006273",
-      secondary: "#006273", // HACK FOR material-table hardcoded toolbar!,
-      second: "#fff",
+      primary: "#000",
+      secondary: "#000", // HACK FOR material-table hardcoded toolbar!,
+      second: "#000",
       error: "#801a00",
     },
     toggledButton: "#999999",
@@ -54,7 +54,7 @@ const theme = createTheme({
     drawer: {
       width: 300,
       fontSize: 16,
-      backgroundColor:"#006273"
+      backgroundColor:"#EC1C21ff"
     },
     appBar: {
       fontSize: 16,
@@ -69,11 +69,11 @@ const theme = createTheme({
   paper: {
     paper: {
       margin: 10,
-      backgroundColor: "#dbeef0",
+      backgroundColor: "#EC1C2114",
     },
     header: {
-      color: "#006273",
-      backgroundColor: "#b7d4d8",
+      color: "#000",
+      backgroundColor: "#EC1C2120",
     },
     message: {
       backgroundColor: "#b7d4d8",
@@ -81,8 +81,8 @@ const theme = createTheme({
     title: {
       padding: 10,
       fontSize: 24,
-      color: "#006273",
-      backgroundColor: "#b7d4d8",
+      color: "#000",
+      backgroundColor: "#EC1C2120",
     },
     action: {
       padding: 5,
@@ -93,7 +93,7 @@ const theme = createTheme({
     },
     body: {
       marginTop: 10,
-      backgroundColor: "#dbeef0",
+      backgroundColor: "#EC1C2114",
     },
     item: {
       padding: 10,
@@ -103,17 +103,17 @@ const theme = createTheme({
     title: {
       padding: 10,
       fontWeight: 500,
-      color: "#006273",
-      backgroundColor: "#b7d4d8",
+      color: "#000",
+      backgroundColor: "#EC1C2111",
     },
     header: {
-      color: "#006273",
+      color: "#EC1C21ff",
     },
     headerAction: {
       padding: 5,
     },
     row: {
-      color: "#006273",
+      color: "#EC1C21ff",
       align: "center",
       "&:hover": {
         background: "rgba(0, 0, 0, 0.12) !important",
@@ -147,10 +147,10 @@ const theme = createTheme({
       align: "center",
     },
     footer: {
-      color: "#006273",
+      color: "#EC1C21ff",
     },
     pager: {
-      color: "#006273",
+      color: "#EC1C21ff",
     },
   },
   form: {
@@ -158,13 +158,13 @@ const theme = createTheme({
   },
   formTable: {
     table: {
-      color: "#006273",
+      color: "#EC1C21ff",
     },
     actions: {
-      color: "#006273",
+      color: "#EC1C21ff",
     },
     header: {
-      color: "#006273",
+      color: "#EC1C21ff",
       align: "center",
     },
   },
@@ -177,12 +177,12 @@ const theme = createTheme({
       padding: 0,
     },
     primaryButton: {
-      backgroundColor: "#006273",
-      color: "#fff",
+      backgroundColor: "#EC1C21ff",
+      color: "#000",
       fontWeight: "bold",
       "&:hover": {
-        backgroundColor: alpha("#006273", 0.5),
-        color: "#006273",
+        backgroundColor: alpha("#EC1C21ff", 0.5),
+        color: "#EC1C21ff",
       },
     },
     secondaryButton: {},
