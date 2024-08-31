@@ -95,12 +95,12 @@
       "npm": "@openimis/fe-invoice@git+https://github.com/openimis/openimis-fe-invoice_js.git#develop"
     },
     {
-      "name": "GrievanceModule",
-      "npm": "@openimis/fe-grievance_social_protection@git+https://github.com/openimis/openimis-fe-grievance_social_protection_js.git#develop"
+      "name": "GrievanceSocialProtectionModule",
+      "npm": "@openimis/fe-grievance_social_protection@git+https://github.com/openimis/openimis-fe-grievance_social_protection_js.git#release/24.04"
     },
     {
-      "name": "EnglishEthLanguageModule",
-      "npm": "@openimis/fe-english_eth_language_pack@1.0.1"
+      "name": "LanguageEnModule",
+      "npm": "@openimis/fe-english@1.0.1"
     },
     {
       "name": "ClaimSamplingModule",
